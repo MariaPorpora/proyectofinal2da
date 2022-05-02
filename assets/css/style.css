@@ -70,6 +70,8 @@ h5{
     background-color:#C4C7F2;
     display: flex;
     justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
   
 }
 
