@@ -92,9 +92,6 @@ h5{
     font-family: moon;
 }
 
-
-
-
 .pie{
     grid-column: 1/4;
     grid-row: 4/5;
@@ -121,7 +118,7 @@ h2{
 
 .Formulario{
     text-align: center;
-    background-image:linear-gradient( to left, #EF816C,#C4C7F2);
+    background-image:linear-gradient( to left, #C4C7F2,#EF816C);
  justify-content: center;                               
     width: 700px;
     margin: 20px;
@@ -143,8 +140,8 @@ h2{
 .TituloContactos{
     color:#011C26;
     font-family: "moon";
-    margin: 20px;
-    font-size: 20px;
+    margin: 50px;
+    font-size: 30px;
     text-align: center;
         }
    
