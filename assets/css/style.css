@@ -118,7 +118,7 @@ h2{
 
 .Formulario{
     text-align: center;
-    background-image:linear-gradient( to left, #C4C7F2,#EF816C);
+    background-image:linear-gradient( to left, #C4C7F2,#fcddd6);
  justify-content: center;                               
     width: 700px;
     margin: 20px;
@@ -129,13 +129,23 @@ h2{
     width: 200px; 
     transition: all 3s;
     display: flex;
-  align-self: center;
+    align-self: center;
+    animation-name: movi;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-delay: 1s;
 }
 
-.Formulario img:hover{
-    width: 300px;
-    transform: translate(10px,15px);
-}
+@keyframes movi{
+    0%{
+        transform: traslate (0px,0px);
+    
+    }
+    25%{
+        transform: translate(50px,0px);
+    }
+
+   } 
 
 .TituloContactos{
     color:#011C26;
