@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-:root{
+:root{ 
+ 
     --color1: #EF816C;
-    --color2: #C4C7F2;
-    --color3: #011C26;
-    --color4: #ffffff;
+    --color2: #011C26;
+    --color3: #F7C3B9;
 }
 .logo1{
     width: 200px;
@@ -25,7 +25,7 @@
 a{
   font-family: moon;
   font-style: none;
-  color:#011C26;
+
 
 }
 
@@ -66,7 +66,7 @@ h5{
 
 .publicidad{
 
-    background-color:#C4C7F2;
+    background-color:#F7C3B9;
     display: flex;
     justify-content: center;
 
@@ -102,7 +102,7 @@ h5{
     margin: 10px;
     padding: 10px;
     font-size: 10px;
-    color:#EF816C;
+    color:white;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -118,8 +118,8 @@ h2{
 
 .Formulario{
     text-align: center;
-    background-image:linear-gradient( to left, #C4C7F2,#fcddd6);
- justify-content: center;                               
+    background-image:linear-gradient( to left, #C4C7F2,#F7C3B9);
+    justify-content: center;                               
     width: 700px;
     margin: 20px;
     border-radius: 20px;
@@ -156,8 +156,8 @@ h2{
         }
    
 .PieDeContactos{
- color:#EF816C;
- background-color: #011C26;
+ color:white;
+ background-color:#011C26;
 }
 
 button{
@@ -188,7 +188,7 @@ button:hover {
 .producto2{
     width: 200px;
     height: 330px;
-    background-color:#C4C7F2;
+    background-color:#F7C3B9;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -212,9 +212,9 @@ button:hover {
     margin: 10px;
     padding: 10px;
     font-size: 10px;
-    color:#EF816C;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #011C26;
+    background-color:#011C26;
 
 }
 
@@ -259,7 +259,7 @@ button:hover {
     margin: 10px;
     padding: 10px;
     font-size: 10px;
-    color:#EF816C;
+    color:white;
     font-family: 'Times New Roman', Times, serif;
     background-color: #011C26;
 }
@@ -307,9 +307,9 @@ justify-content: center;
         margin: 10px;
         padding: 10px;
         font-size: 10px;
-        color:#EF816C;
+        color:white;
         font-family: 'Times New Roman', Times, serif;
-        background-color: #011C26;
+        background-color:#011C26;
     
 }
 
