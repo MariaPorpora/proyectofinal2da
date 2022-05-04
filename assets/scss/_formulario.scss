@@ -1,0 +1,60 @@
+
+
+.TituloContactos{
+    color:#011C26;
+    font-family: "moon";
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+        }
+
+.Formulario{
+    text-align: center;
+    background-image:linear-gradient( to left, #C4C7F2,#F7C3B9);
+    justify-content: center;                               
+    width: 700px;
+    margin: 20px;
+    border-radius: 20px;
+
+    img{
+        width: 200px; 
+        transition: all 3s;
+        display: flex;
+        align-self: center;
+        animation-name: movi;
+        animation-duration: 5s;
+        animation-iteration-count:infinite;
+        animation-delay: 1s;
+    
+        @keyframes movi{
+            0%{
+                transform: traslate (0px,0px);
+            
+            }
+            25%{
+                transform: translate(50px,0px);
+            }
+        
+           } 
+    
+    }
+    
+    button{
+        box-shadow: 7px 4px 21px 0px rgba(0,0,0,0.81);
+        width: 90px;
+    }
+    
+    button:hover {
+        box-shadow:7px 4px 14px 6px white;
+        width: 90px;
+    }
+    
+
+}
+
+
+
+
+
+
+

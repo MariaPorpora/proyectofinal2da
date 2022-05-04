@@ -1,0 +1,39 @@
+
+.banner{  
+    width: 100%;
+    background-image: url(../img/india.jpg);
+    height: 650px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+    h1{
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        background-color: rgba(128, 128, 128, 0.393);
+        line-height: 650PX;
+        letter-spacing: 5px;
+        font-size: 100px;
+        font-family: moon;
+     
+    }
+    
+
+    }
+
+
+    .ImgTerapias img{
+    
+        transition: all 3s; 
+
+      
+      }
+
+      
+      .ImgTerapias img:hover{
+        transform: rotatey(380deg);
+    
+    }
+    
+    

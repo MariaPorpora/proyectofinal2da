@@ -1,315 +1,221 @@
-*{
-    margin: 0;
-    padding: 0;
+.logo1 {
+  width: 200px;
+  height: 250px;
 }
 
-:root{ 
- 
-    --color1: #EF816C;
-    --color2: #011C26;
-    --color3: #F7C3B9;
-}
-.logo1{
-    width: 200px;
-    height: 250px;
-
-}
-
-
-@font-face {
-    font-family: Moon;
-    src: url("../fonts/BerkshireSwash-Regular.ttf");
-}
-
-
-a{
+a {
   font-family: moon;
   font-style: none;
-
-
 }
 
-.texto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    margin: 5px;
-    padding: 5px;
-
+@font-face {
+  font-family: Moon;
+  src: url("../fonts/BerkshireSwash-Regular.ttf");
 }
 
-.texto__1{
-    font-size: 10px;
-    margin: 5px;
-    font-family:'Times New Roman', Times, serif
+.texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 5px;
+  padding: 5px;
 }
 
-.texto__2{
-    font-size: 10px;
-    margin: 5px;
-    font-family:'Times New Roman', Times, serif
+.texto1 {
+  font-size: 10px;
+  margin: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.texto__3{
-    font-size: 10px;
-    margin: 5px;
-    font-family:'Times New Roman', Times, serif
+.texto1 h5 {
+  display: flex;
+  justify-content: center;
+  font-family: "moon";
+  font-size: 24px;
 }
 
-h5{
-    display: flex;
-    justify-content: center;
-    font-family: "moon";
-    font-size: 24px;
+.publicidad {
+  background-color: #F7C3B9;
+  display: flex;
+  justify-content: center;
 }
 
-.publicidad{
-
-    background-color:#F7C3B9;
-    display: flex;
-    justify-content: center;
-
-  
+.publicidad .producto {
+  width: 200px;
+  height: 330px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  border-style: none;
 }
 
-.producto{
-    width: 100px;
-    height: 140px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    display: inline-block;
-    box-shadow: 2px 10px 5px rgba(0, 0, 0, 0.121);
+.publicidad .producto__titulo {
+  text-align-last: center;
+  font-size: 15px;
+  font-family: moon;
 }
 
-.producto__titulo{
-    text-align-last: center;
-    font-size: 15px;
-    font-family: moon;
+.publicidad button {
+  box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
+  width: 90px;
 }
 
-.pie{
-    grid-column: 1/4;
-    grid-row: 4/5;
-    background-color:#011C26;
-
+.publicidad button:hover {
+  box-shadow: 7px 4px 14px 6px white;
+  width: 90px;
 }
 
-.TextoPie{
-    text-align-last: center;
-    margin: 10px;
-    padding: 10px;
-    font-size: 10px;
-    color:white;
-    font-family: 'Times New Roman', Times, serif;
+.pie {
+  grid-column: 1/4;
+  grid-row: 4/5;
+  background-color: #011C26;
 }
 
-h2{
-      font-family: "Moon";
+.pie .TextoPie {
+  text-align-last: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-
-
-
-
-/*--------------------CSS CONTACTOS-----------------------------------------------*/
-
-.Formulario{
-    text-align: center;
-    background-image:linear-gradient( to left, #C4C7F2,#F7C3B9);
-    justify-content: center;                               
-    width: 700px;
-    margin: 20px;
-    border-radius: 20px;
+.pie h2 {
+  font-family: "Moon";
 }
 
-.Formulario img{
-    width: 200px; 
-    transition: all 3s;
-    display: flex;
-    align-self: center;
-    animation-name: movi;
-    animation-duration: 5s;
-    animation-iteration-count:infinite;
-    animation-delay: 1s;
+.TituloContactos {
+  color: #011C26;
+  font-family: "moon";
+  margin: 50px;
+  font-size: 30px;
+  text-align: center;
 }
 
-@keyframes movi{
-    0%{
-        transform: traslate (0px,0px);
-    
-    }
-    25%{
-        transform: translate(50px,0px);
-    }
-
-   } 
-
-.TituloContactos{
-    color:#011C26;
-    font-family: "moon";
-    margin: 50px;
-    font-size: 30px;
-    text-align: center;
-        }
-   
-.PieDeContactos{
- color:white;
- background-color:#011C26;
+.Formulario {
+  text-align: center;
+  background-image: linear-gradient(to left, #C4C7F2, #F7C3B9);
+  justify-content: center;
+  width: 700px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
-button{
-    box-shadow: 7px 4px 21px 0px rgba(0,0,0,0.81);
-    width: 90px;
+.Formulario img {
+  width: 200px;
+  transition: all 3s;
+  display: flex;
+  align-self: center;
+  animation-name: movi;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 
-button:hover {
-    box-shadow:7px 4px 14px 6px white;
-    width: 90px;
-}
-
-
-/*--------------------------CSS DE PRODUCTOS-----------------------------------------*/
-
-.producto{
-    width: 200px;
-    height: 330px;
-    background-color:#ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    border-style: none;
-     
-}
-
-
-.producto2{
-    width: 200px;
-    height: 330px;
-    background-color:#F7C3B9;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    border-style: none;
-     
-}
-
-
-.producto__titulo{
-    text-align-last: center;
-}
-
-.producto__img{
-    width: 200px;
-    height: 200px;
-}
-
-.PieProductos{
-   
-    text-align-last: center;
-    margin: 10px;
-    padding: 10px;
-    font-size: 10px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    background-color:#011C26;
-
-}
-
-
-/*--------------------------- CSS TALLERES------------------*/
-
-.talleres{
-
-    text-align: center;
-    margin: 50px;
-    letter-spacing: 5px;
-    font-size: 50px;
-    font-family: moon;
-    animation-duration: 2s;
-    animation-name: slidein;
-}
-
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
+@keyframes movi {
+  0% {
+    transform: traslate 0px, 0px;
   }
-
-
-   tr th{
-        color:#EF816C;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    
-
-
-
-.PieTalleres{
-    text-align-last: center;
-    margin: 10px;
-    padding: 10px;
-    font-size: 10px;
-    color:white;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #011C26;
+  25% {
+    transform: translate(50px, 0px);
+  }
 }
 
-/*----------CSS DE TERAPIAS-------------*/
-
-
-.banner{  
-width: 100%;
-background-image: url(../img/india.jpg);
-height: 650px;
-background-position: center;
-display: flex;
-justify-content: center;
+.Formulario button {
+  box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
+  width: 90px;
 }
 
+.Formulario button:hover {
+  box-shadow: 7px 4px 14px 6px white;
+  width: 90px;
+}
 
-.banner h1{
+.producto2 {
+  width: 200px;
+  height: 330px;
+  background-color: #F7C3B9;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  border-style: none;
+}
+
+.producto2 .producto__titulo {
+  text-align-last: center;
+  font-family: moon;
+  font-size: 20px;
+}
+
+.producto2 .producto__img {
+  width: 200px;
+  height: 200px;
+}
+
+.producto2 button {
+  box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
+  width: 90px;
+}
+
+.producto2 button:hover {
+  box-shadow: 7px 4px 14px 6px white;
+  width: 90px;
+}
+
+.talleres {
+  text-align: center;
+  margin: 50px;
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-family: moon;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
     width: 100%;
-    text-align: center;
-    height: 100%;
-    background-color: rgba(128, 128, 128, 0.393);
-    line-height: 650PX;
-    letter-spacing: 5px;
-    font-size: 100px;
-    font-family: moon;
- 
+  }
 }
 
-.ImgTerapias img{
-    
-  transition: all 3s; 
-
+tr th {
+  color: #F7C3B9;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.ImgTerapias img:hover{
-    transform: rotatey(380deg);
-
+.banner {
+  width: 100%;
+  background-image: url(../img/india.jpg);
+  height: 650px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
 }
 
-
-.PieTerapias{
-   
-        text-align-last: center;
-        margin: 10px;
-        padding: 10px;
-        font-size: 10px;
-        color:white;
-        font-family: 'Times New Roman', Times, serif;
-        background-color:#011C26;
-    
+.banner h1 {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.393);
+  line-height: 650PX;
+  letter-spacing: 5px;
+  font-size: 100px;
+  font-family: moon;
 }
 
+.ImgTerapias img {
+  transition: all 3s;
+}
+
+.ImgTerapias img:hover {
+  transform: rotatey(380deg);
+}
+/*# sourceMappingURL=style.css.map */

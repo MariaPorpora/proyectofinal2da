@@ -1,0 +1,37 @@
+
+.publicidad{
+
+    background-color:$colorprimario;
+    display: flex;
+    justify-content: center;
+
+    .producto{
+        width: 200px;
+    height: 330px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    border-style: none;
+    }
+    .producto__titulo{
+        text-align-last: center;
+        font-size: 15px;
+        font-family: $fuentemoon;
+    }
+    button{
+        box-shadow: 7px 4px 21px 0px rgba(0,0,0,0.81);
+        width: 90px;
+    }
+    
+    button:hover {
+        box-shadow:7px 4px 14px 6px white;
+        width: 90px;
+    }
+    
+}
+
+
+
+
+
