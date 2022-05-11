@@ -1,0 +1,39 @@
+
+.Vivencias{
+display: map-get($tarjeta , display );
+font-size: map-get($tarjeta , texto);
+background-color: map-get($tarjeta , fondo );  
+margin: map-get($tarjeta, margen );
+
+  }
+
+
+  @mixin propiedadesTitulos ($tal, $ff, $fs,$mg) {
+    text-align-last: center;
+    font-family: $fuentemoon;
+    font-size: 20px;
+    margin: 5px
+}
+
+
+.VivenciaTitulo{
+    @include propiedadesTitulos(center, $fuentemoon, 20px, 5px );
+}
+
+
+
+.vivencia{
+@extend .Vivencias
+  }
+
+.btn{
+    box-shadow: map-get($botones, sombra );
+    width: map-get($botones, alto );
+    font-family: map-get($botones, texto );
+}
+
+.btn:hover {
+    box-shadow:7px 4px 14px 6px white;
+    width: 90px;
+}
+

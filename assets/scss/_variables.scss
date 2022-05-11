@@ -2,3 +2,16 @@ $colorprimario: #F7C3B9;
 $colorsecundario: #011C26;
 $colorblanco: white;
 $fuentemoon: moon;
+$tarjeta:(
+    display:flex,
+    margen: 5px,
+    texto: 15px,
+    fondo: $colorprimario
+);
+
+$botones:(
+    sombra: 7px 4px 21px 0px rgba(0,0,0,0.81),
+    alto: 90px,
+    texto: $fuentemoon,
+)
+

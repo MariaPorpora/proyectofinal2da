@@ -218,4 +218,29 @@ tr th {
 .ImgTerapias img:hover {
   transform: rotatey(380deg);
 }
+
+.Vivencias, .vivencia {
+  display: flex;
+  font-size: 15px;
+  background-color: #F7C3B9;
+  margin: 5px;
+}
+
+.VivenciaTitulo {
+  text-align-last: center;
+  font-family: moon;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.btn {
+  box-shadow: 7px 4px 21px 0px rgba(0, 0, 0, 0.81);
+  width: 90px;
+  font-family: moon;
+}
+
+.btn:hover {
+  box-shadow: 7px 4px 14px 6px white;
+  width: 90px;
+}
 /*# sourceMappingURL=style.css.map */
